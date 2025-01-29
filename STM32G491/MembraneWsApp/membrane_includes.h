@@ -294,7 +294,8 @@ typedef struct
 //#define	STEADY_VALUE				(DAC_MAX_VALUE / 2)
 //#define	STEADY_VALUE				(4095 - (DAC_MAX_VALUE / 2))
 //#define	STEADY_VALUE				(DAC_MAX_VALUE - 1024)
-#define	STEADY_VALUE				(DAC_MAX_VALUE / 4)
+//#define	STEADY_VALUE				(DAC_MAX_VALUE / 4)
+#define	STEADY_VALUE				(DAC_MAX_VALUE / 2)
 #define	CALIBRATION_VALUE			64
 
 #define	MINIMUM_THRESHOLD			(DAC_MAX_VALUE / 8)

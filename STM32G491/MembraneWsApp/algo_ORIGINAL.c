@@ -259,9 +259,7 @@ uint32_t	i;
 				if ( AcqSystem.threshold_low_counter > MembraneParameters.hysteresis_K )
 				{
 					if ( AcqSystem.internal_scale_factor < 6)
-					{
 						AcqSystem.internal_scale_factor ++;
-					}
 				}
 
 			}

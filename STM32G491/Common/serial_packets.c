@@ -475,7 +475,7 @@ int	pnum;
 #define	LOCAL_NAME		"Membrane Temperature Sensor "
 #endif
 
-#define	LOCAL_VERSION	"1.2.0 Aos V2024.10.00 28-01-25 "
+#define	LOCAL_VERSION	"1.2.0h V2024.10.00 28-01-25 "
 
 char	localname[48],localversion[48];
 #endif
